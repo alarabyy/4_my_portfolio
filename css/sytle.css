@@ -434,7 +434,7 @@ body {
 @import url("https://fonts.googleapis.com/css?family=Raleway");
 
 :root {
-  --glow-color2: hsl(245, 94%, 36%);
+  --glow-color2: hsl(245, 94%, 44%);
 }
 
 *,
@@ -446,7 +446,7 @@ body {
 
 .glowing-btn2 {
   position: relative;
-  color: var(--glow-color2);
+  color: wheat;
   cursor: pointer;
   padding: 0.35em 1em;
   border: 0.15em solid var(--glow-color2);
