@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0; /* Light background for contrast */
+    /* background-color: #f0f0f0; Light background for contrast */
 }
 
 .header {
@@ -12,10 +12,13 @@ body {
     justify-content: center;
     align-items: center;
     height: 100px; /* Fixed height */
-    background-color: #000000; /* Black background */
     color: #ffffff; /* White text */
     z-index: 1000; /* Ensure the header is on top */
-    animation: slideDown 1s ease-out; /* Slide down animation */
+    animation: slideDown 1s ease-out; 
+	align-items: center;
+	justify-content: center;
+	background-color: #131417;
+	background-image: linear-gradient(315deg, #131417 0%, #1e1f26 74%);
 }
 
 @keyframes slideDown {
@@ -102,7 +105,7 @@ body {
 .content {
 	width: 80vw;
 	height: 80vh;
-	background: #fff0;
+	background: rgba(165, 221, 24, 0);
 }
 
 .profile-skills {
@@ -653,10 +656,3 @@ ul.skills li.more input:checked + label:hover {
 /* ==================================================================================== */
 /* ==================================================================================== */
 
-body {
-    
-    align-items: center;
-    justify-content: center;
-	background-color: #131417;
-	background-image: linear-gradient(315deg, #131417 0%, #1e1f26 74%);
-} 
