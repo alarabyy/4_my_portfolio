@@ -22,8 +22,8 @@ body {
 
 :root {
     --bg: rgb(255, 255, 255);
-    --c1: #fff3cd;
-    --c2:  rgb(12, 16, 234)   ;
+    --c1: #828282;
+    --c2:  rgba(9, 10, 122, 0.53)   ;
     --c3: #000000;
   
     /*   
@@ -112,7 +112,7 @@ body {
     text-align: center;
   }
   
-  h1 {
+  h3 {
     font-weight: 400;
     font-family: Oswald, Montserrat, arial, sans-serif;
     margin: 0;
